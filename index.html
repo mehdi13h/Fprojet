@@ -3,184 +3,21 @@
 <html>
  
 <head>
-    <title>Simple web Development Template</title>
- 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
- 
-        .navbar {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: sticky;
-            top: 0;
-            cursor: pointer;
-        }
- 
-        .background {
-            background: black;
-            background-blend-mode: darken;
-            background-size: cover;
-        }
- 
-        .nav-list {
-            width: 70%;
-            display: flex;
-            align-items: center;
-        }
- 
-        .logo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
- 
-        .logo img {
-            width: 180px;
-            border-radius: 50px;
-        }
- 
-        .nav-list li {
-            list-style: none;
-            padding: 26px 30px;
-        }
- 
-        .nav-list li a {
-            text-decoration: none;
-            color: white;
-        }
- 
-        .nav-list li a:hover {
-            color: grey;
-        }
- 
-        .rightnav {
-            width: 30%;
-            text-align: right;
-        }
- 
-        #search {
-            padding: 5px;
-            font-size: 17px;
-            border: 2px solid grey;
-            border-radius: 9px;
-        }
- 
-        .firstsection {
-            background-color: green;
-            height: 400px;
-        }
- 
-        .secondsection {
-            background-color: blue;
-            height: 400px;
-        }
- 
-        .box-main {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: black;
-            max-width: 80%;
-            margin: auto;
-            height: 80%;
-        }
- 
-        .firsthalf {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
- 
-        .secondhalf {
-            width: 30%;
-        }
- 
-        .secondhalf img {
-            width: 70%;
-            border: 4px solid white;
-            border-radius: 150px;
-            display: block;
-            margin: auto;
-        }
- 
-        .text-big {
-            font-family: 'Piazzolla', serif;
-            font-weight: bold;
-            font-size: 35px;
-        }
- 
-        .text-small {
-            font-size: 18px;
-        }
- 
-        .btn {
-            padding: 8px 20px;
-            margin: 7px 0;
-            border: 2px solid white;
-            border-radius: 8px;
-            background: none;
-            color: white;
-            cursor: pointer;
-        }
- 
-        .btn-sm {
-            padding: 6px 10px;
-            vertical-align: middle;
-        }
- 
-        .section {
-            height: 400px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            max-width: 90%;
-            margin: auto;
-        }
- 
-        .section-Left {
-            flex-direction: row-reverse;
-        }
- 
-        .paras {
-            padding: 0px 65px;
-        }
- 
-        .thumbnail img {
-            width: 250px;
-            border: 2px solid black;
-            border-radius: 26px;
-            margin-top: 19px;
-        }
- 
-        .center {
-            text-align: center;
-        }
- 
-        .text-footer {
-            text-align: center;
-            padding: 30px 0;
-            font-family: 'Ubuntu', sans-serif;
-            display: flex;
-            justify-content: center;
-            color: white;
-        }
-    </style>
+    <title>
+      SIMPLE WEB DEV
+    </title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
 </head>
  
 <body>
     <nav class="navbar background">
         <ul class="nav-list">
             <div class="logo">
-                <img src= "logo.jpeg">
+                <img src="logo.jpeg">
             </div>
-            <li><a href="#web">Web Technology</a></li>
-            <li><a href="#program">C Programming</a></li>
-            <li><a href="#course">Courses</a></li>
+            <li><a href="#web">Html</a></li>
+            <li><a href="#program">CSS </a></li>
+            <li><a href="#course">Courses </a></li>
         </ul>
  
         <div class="rightNav">
@@ -192,18 +29,12 @@
     <section class="firstsection">
         <div class="box-main">
             <div class="firstHalf">
-                <h1 class="text-big" id="web">Web Technology</h1>
+                <h1 class="text-big" id="web">
+                    Web Technology
+                </h1>
+                 
                 <p class="text-small">
-                    HTML stands for HyperText Markup Language.
-                    It is used to design web pages using a markup
-                    language. HTML is the combination of Hypertext
-                    and Markup language. Hypertext defines the
-                    link between the web pages. A markup language
-                    is used to define the text document within tag
-                    which defines the structure of web pages.
-                    HTML is a markup language that is used by the
-                    browser to manipulate text, images, and other
-                    content to display it in the required format.
+                    Les technologies web sont un ensemble de protocoles et spécifications qui composent et sont utilisés par le World Wide Web (généralement abrégé Web ou www) et ses normes. Le web a été créé en 1989 comme application de partage d'informations puis est devenu une plate-forme à part entière sur laquelle sont développées régulièrement des nouvelles technologies1. Les bases de ces technologies sont le protocole réseau HTTP, normalisé par l'IETF, et le format de document HTML, normalisé par le World Wide Web Consortium (W3C). Ce dernier organisme est l’organe centrale de normalisation des technologies web.
                 </p>
  
  
@@ -213,20 +44,14 @@
  
     <section class="secondsection">
         <div class="box-main">
-            <div class="firstHalf">
+            <div class="secondHalf">
                 <h1 class="text-big" id="program">
-                    C Programming
+                    HTML  Programming
                 </h1>
                 <p class="text-small">
-                    C is a procedural programming language. It
-                    was initially developed by Dennis Ritchie
-                    as a system programming language to write
-                    operating system. The main features of C
-                    language include low-level access to memory,
-                    simple set of keywords, and clean style,
-                    these features make C language suitable for
-                    system programming like operating system or
-                    compiler development.
+                    HTML 
+                    L'HTML est un langage informatique utilisé sur l'internet. Ce langage est utilisé pour créer des pages web. L'acronyme signifie HyperText Markup Language, ce qui signifie en français "langage de balisage d'hypertexte". Cette signification porte bien son nom puisqu'effectivement ce langage permet de réaliser de l'hypertexte à base d'une structure de balisage. 
+
                 </p>
  
  
@@ -236,37 +61,87 @@
  
     <section class="section">
         <div class="paras">
-            <h1 class="sectionTag text-big">Java</h1>
+            <h1 class="sectionTag text-big">CSS</h1>
  
             <p class="sectionSubTag text-small">
-                Java has been one of the most popular
-                programming language for many years.
-                Java is Object Oriented. However it is
-                not considered as pure object oriented
-                as it provides support for primitive
-                data types (like int, char, etc) The
-                Java codes are first compiled into byte
-                code (machine independent code). Then
-                the byte code is run on Java Virtual
-                Machine (JVM) regardless of the
-                underlying architecture.
+                Le terme CSS est l'acronyme anglais de Cascading Style Sheets qui peut se traduire par "feuilles de style en cascade". Le CSS est un langage informatique utilisé sur l'internet pour mettre en forme les fichiers HTML ou XML. Ainsi, les feuilles de style, aussi appelé les fichiers CSS, comprennent du code qui permet de gérer le design d'une page en HTML.
             </p>
  
  
         </div>
  
         <div class="thumbnail">
-            <img src= "images.jpeg" alt="laptop image">
+            <img src="images.jpeg" alt="laptop image">
+            <audio controls>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="tcp.mp3" type="audio/mpeg">
+             </audio>
+        </div>
+        <div><html>
+            <head>
+            <style>
+            #customers {
+              font-family: Arial, Helvetica, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            #customers td, #customers th {
+              border: 1px solid #ddd;
+              padding: 8px;
+            }
+            
+            #customers tr:nth-child(even){background-color: #f2f2f2;}
+            
+            #customers tr:hover {background-color: #ddd;}
+            
+            #customers th {
+              padding-top: 12px;
+              padding-bottom: 12px;
+              text-align: left;
+              background-color: #04AA6D;
+              color: white;
+            }
+            </style>
+            </head>
+            <body>
+            
+            <h1>A Fancy Table</h1>
+            
+            <table id="customers">
+            
+              <tr>
+                <td>north africa</td>
+                <td>MEHDIGHRIBIOFFICIAL@GMAIL.COM</td>
+                <td>Tunisia</td>
+              </tr>
+            
+            </table>
+            
+            </body>
+            </html>
         </div>
     </section>
  
     <footer class="background">
         <p class="text-footer">
-          Ghribi Mehdi 
+            Ghribi Mehdi
         </p>
  
  
     </footer>
+    <h1>All countries</h1>
+<ul class="countries">
+  <li>Tunisia</li>
+  <li>libya</li>
+  <li>maroc</li>
+  <li>Algeria</li>
+  <li>Europ</li>
+  <li>america
+
+  </li>
+  …
+</ul>
 </body>
  
 </html>
